@@ -1,5 +1,5 @@
 {
-  "name": "next-app-template",
+  "name": "create-hack-g17",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -22,14 +22,21 @@
     "@heroui/theme": "2.4.20",
     "@react-aria/ssr": "3.9.10",
     "@react-aria/visually-hidden": "3.8.26",
+    "@supabase/supabase-js": "^2.45.4",
+    "@tanstack/react-query": "^5.56.2",
+    "@tremor/react": "^3.18.3",
     "clsx": "2.1.1",
     "framer-motion": "11.18.2",
     "intl-messageformat": "10.7.16",
+    "mapbox-gl": "^3.6.0",
     "next": "15.3.1",
     "next-themes": "0.4.6",
     "react": "18.3.1",
     "react-dom": "18.3.1",
-    "upgrade": "^1.1.0"
+    "react-icons": "^5.3.0",
+    "react-map-gl": "^7.1.7",
+    "upgrade": "^1.1.0",
+    "zustand": "^4.5.5"
   },
   "devDependencies": {
     "@next/eslint-plugin-next": "15.3.4",
@@ -38,6 +45,7 @@
     "@types/node": "20.5.7",
     "@types/react": "18.3.3",
     "@types/react-dom": "18.3.0",
+    "@types/mapbox-gl": "^3.4.0",
     "@typescript-eslint/eslint-plugin": "8.34.1",
     "@typescript-eslint/parser": "8.34.1",
     "eslint": "9.25.1",

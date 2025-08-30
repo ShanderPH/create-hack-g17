@@ -1,69 +1,67 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-  name: "Next.js + HeroUI",
-  description: "Make beautiful websites regardless of your design experience.",
+  name: "Create Hack G17",
+  description: "Plataforma de gestão e métricas para atividades filantrópicas",
   navItems: [
     {
-      label: "Home",
+      label: "Dashboard",
       href: "/",
     },
     {
-      label: "Docs",
-      href: "/docs",
+      label: "Atividades",
+      href: "/activities",
     },
     {
-      label: "Pricing",
-      href: "/pricing",
+      label: "Métricas",
+      href: "/metrics",
     },
     {
-      label: "Blog",
-      href: "/blog",
+      label: "Mapa",
+      href: "/map",
     },
     {
-      label: "About",
+      label: "Sobre",
       href: "/about",
     },
   ],
   navMenuItems: [
     {
-      label: "Profile",
+      label: "Dashboard",
+      href: "/",
+    },
+    {
+      label: "Atividades",
+      href: "/activities",
+    },
+    {
+      label: "Métricas",
+      href: "/metrics",
+    },
+    {
+      label: "Mapa",
+      href: "/map",
+    },
+    {
+      label: "Perfil",
       href: "/profile",
     },
     {
-      label: "Dashboard",
-      href: "/dashboard",
-    },
-    {
-      label: "Projects",
-      href: "/projects",
-    },
-    {
-      label: "Team",
-      href: "/team",
-    },
-    {
-      label: "Calendar",
-      href: "/calendar",
-    },
-    {
-      label: "Settings",
+      label: "Configurações",
       href: "/settings",
     },
     {
-      label: "Help & Feedback",
-      href: "/help-feedback",
+      label: "Ajuda",
+      href: "/help",
     },
     {
-      label: "Logout",
+      label: "Sair",
       href: "/logout",
     },
   ],
   links: {
-    github: "https://github.com/heroui-inc/heroui",
-    twitter: "https://twitter.com/hero_ui",
-    docs: "https://heroui.com",
-    discord: "https://discord.gg/9b6yyZKmH4",
-    sponsor: "https://patreon.com/jrgarciadev",
+    github: "https://github.com/create-hack-g17",
+    docs: "/about",
+    support: "/help",
   },
 };
